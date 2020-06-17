@@ -3,3 +3,6 @@
 ################################################################################
 
 /Redis.Consumer/obj/Release/netcoreapp3.1
+/Redis.Producer/obj/Release/netcoreapp3.1
+/Redis.Common/obj/Release/netstandard2.0
+/.vs
