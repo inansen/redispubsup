@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  redis.web:
+    image: ${DOCKER_REGISTRY-}redisweb
+    build:
+      context: .
+      dockerfile: Redis.Web/Dockerfile

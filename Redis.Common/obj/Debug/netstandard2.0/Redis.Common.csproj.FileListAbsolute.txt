@@ -1,0 +1,9 @@
+C:\makaleler\Redis\Redis.Common\bin\Debug\netstandard2.0\Redis.Common.deps.json
+C:\makaleler\Redis\Redis.Common\bin\Debug\netstandard2.0\Redis.Common.dll
+C:\makaleler\Redis\Redis.Common\bin\Debug\netstandard2.0\Redis.Common.pdb
+C:\makaleler\Redis\Redis.Common\obj\Debug\netstandard2.0\Redis.Common.csprojAssemblyReference.cache
+C:\makaleler\Redis\Redis.Common\obj\Debug\netstandard2.0\Redis.Common.AssemblyInfoInputs.cache
+C:\makaleler\Redis\Redis.Common\obj\Debug\netstandard2.0\Redis.Common.AssemblyInfo.cs
+C:\makaleler\Redis\Redis.Common\obj\Debug\netstandard2.0\Redis.Common.csproj.CoreCompileInputs.cache
+C:\makaleler\Redis\Redis.Common\obj\Debug\netstandard2.0\Redis.Common.dll
+C:\makaleler\Redis\Redis.Common\obj\Debug\netstandard2.0\Redis.Common.pdb

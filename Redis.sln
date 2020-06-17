@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7CD07DA7-C1CE-4D72-8E92-EFD9E94FEED1}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Producer", "Redis.Producer\Redis.Producer.csproj", "{1F61C5BA-8981-45DB-AE60-F0DBEC681098}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Consumer", "Redis.Consumer\Redis.Consumer.csproj", "{6583D900-643D-48E1-8729-67B17C15A84B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Common", "Redis.Common\Redis.Common.csproj", "{EC08AFEB-8773-49C4-AB74-1D23112B9898}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F61C5BA-8981-45DB-AE60-F0DBEC681098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F61C5BA-8981-45DB-AE60-F0DBEC681098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F61C5BA-8981-45DB-AE60-F0DBEC681098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F61C5BA-8981-45DB-AE60-F0DBEC681098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6583D900-643D-48E1-8729-67B17C15A84B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6583D900-643D-48E1-8729-67B17C15A84B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6583D900-643D-48E1-8729-67B17C15A84B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6583D900-643D-48E1-8729-67B17C15A84B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC08AFEB-8773-49C4-AB74-1D23112B9898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC08AFEB-8773-49C4-AB74-1D23112B9898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC08AFEB-8773-49C4-AB74-1D23112B9898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC08AFEB-8773-49C4-AB74-1D23112B9898}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BDC1452-56CF-4D2A-BC14-90C624E6FAB7}
+	EndGlobalSection
+EndGlobal

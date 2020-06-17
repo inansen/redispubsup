@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lff4sF1mdQUMjuNGe7A5ZvJQzpXlvK7kWTpOlRxRFy5cRzRwlmesBWZzfJ5VxSpDZKTdor4pOdhDUkN1ffDv6w==",
+  "success": true,
+  "projectFilePath": "C:\\makaleler\\github\\redispubsup\\Redis.Common\\Redis.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\inan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\inan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
