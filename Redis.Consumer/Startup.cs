@@ -23,7 +23,6 @@ namespace Redis.Consumer
         public void ConfigureServices(IServiceCollection services)
         {
 
-
             services.AddSingleton<ConnectionMultiplexer>(sp =>
             {
                 var configurationOptions = new ConfigurationOptions
@@ -71,6 +70,7 @@ namespace Redis.Consumer
             app.UseStaticFiles();
             app.UseRouting();
             app.UseAuthorization();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

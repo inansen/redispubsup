@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  redis.producer:
+    image: ${DOCKER_REGISTRY-}redisproducer
+    build:
+      context: .
+      dockerfile: Redis.Producer/Dockerfile
+
+  redis.consumer:
+    image: ${DOCKER_REGISTRY-}redisconsumer
+    build:
+      context: .
+      dockerfile: Redis.Consumer/Dockerfile
+  redis:
+    image: "redis:alpine"
+    container_name: cache
+    expose:
+      - "6379:6379"  

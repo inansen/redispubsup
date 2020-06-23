@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Redis.Common;
 using Redis.Producer.Producers;
@@ -18,11 +19,8 @@ namespace Redis.Producer.Controllers
 
         public IActionResult Index(string message)
         {
-            if (!string.IsNullOrWhiteSpace(message))
-                messageProducer.Publish(new Message(message));
+            messageProducer.Publish(new Message(message));
             return View();
         }
-
-
     }
 }

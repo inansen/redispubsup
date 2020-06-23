@@ -13,12 +13,10 @@ namespace Redis.Consumer.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly ConnectionMultiplexer redis;
 
-        public HomeController(ILogger<HomeController> logger, ConnectionMultiplexer r)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            redis = r;
         }
 
         public IActionResult Index()

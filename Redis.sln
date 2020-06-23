@@ -8,11 +8,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		ReadMe.md = ReadMe.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Producer", "Redis.Producer\Redis.Producer.csproj", "{1F61C5BA-8981-45DB-AE60-F0DBEC681098}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Producer", "Redis.Producer\Redis.Producer.csproj", "{1F61C5BA-8981-45DB-AE60-F0DBEC681098}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Consumer", "Redis.Consumer\Redis.Consumer.csproj", "{6583D900-643D-48E1-8729-67B17C15A84B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Consumer", "Redis.Consumer\Redis.Consumer.csproj", "{6583D900-643D-48E1-8729-67B17C15A84B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Common", "Redis.Common\Redis.Common.csproj", "{EC08AFEB-8773-49C4-AB74-1D23112B9898}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Common", "Redis.Common\Redis.Common.csproj", "{EC08AFEB-8773-49C4-AB74-1D23112B9898}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F1FC77B5-2F62-495C-83FB-8A5FA1F776F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{EC08AFEB-8773-49C4-AB74-1D23112B9898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC08AFEB-8773-49C4-AB74-1D23112B9898}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC08AFEB-8773-49C4-AB74-1D23112B9898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1FC77B5-2F62-495C-83FB-8A5FA1F776F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FC77B5-2F62-495C-83FB-8A5FA1F776F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FC77B5-2F62-495C-83FB-8A5FA1F776F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FC77B5-2F62-495C-83FB-8A5FA1F776F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

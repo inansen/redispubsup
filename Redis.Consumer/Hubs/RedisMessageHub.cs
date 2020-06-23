@@ -8,7 +8,6 @@ namespace Redis.Consumer.Hubs
 {
     public class RedisMessageHub: Hub
     {
-
         public async Task SendMessage(long time, string message)
         {
             var date = DateTime.FromBinary(time);

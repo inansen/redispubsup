@@ -5,7 +5,15 @@
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
     <UserSecretsId>75fd5769-af55-4a3c-aa85-b3c7a4a74574</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Consumers\**" />
+    <Content Remove="Consumers\**" />
+    <EmbeddedResource Remove="Consumers\**" />
+    <None Remove="Consumers\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\js\signalr\dist\browser\signalr.js" />
@@ -20,10 +28,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Redis.Common\Redis.Common.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Consumers\" />
   </ItemGroup>
 
 </Project>

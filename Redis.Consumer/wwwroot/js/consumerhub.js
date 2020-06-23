@@ -1,5 +1,4 @@
 ﻿"use strict";
-
 var connection = new signalR.HubConnectionBuilder().withUrl("/redismessagehub").build();
 
 connection.on("ReceiveMessage", function (time, message) {
@@ -8,10 +7,8 @@ connection.on("ReceiveMessage", function (time, message) {
     var encodedMsg = time + " - " + msg;
     var li = document.createElement("li");
     li.textContent = encodedMsg;
-    console.log(encodedMsg);
     document.getElementById("messagesList").appendChild(li);
 });
-
 
 connection.start().then(function () {
     console.log("signalr connection established");
