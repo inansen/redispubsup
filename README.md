@@ -2,7 +2,7 @@
 
 ### Note
 It can use the StackExchangeRedis reference because ServiceStack Redis blocks connections after an hourly 6000 request.
-Note that redis Pub/Sub has no persistence,this means only connected clients could recieve messages.If there is no subscriber messages would lost.
+Note that redis Pub/Sub has no persistence,this means only connected clients could recieve messages. If there is no subscriber messages would lost.
 ## Installation
 
 for redis
